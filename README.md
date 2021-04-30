@@ -39,7 +39,7 @@ Initialize Capacitor with your app information:
 
 Build your Ionic App
 ```javascript
-  npx cap init [appName] [appId]
+  ionic build
 ```
 
 Check that the "package.json" file in the build shows "webpack"
