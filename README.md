@@ -44,7 +44,7 @@ Check that the "package.json" file in the build shows "webpack"
 ```javascript
 {
   "scripts": {
-    "build": webpack"
+    "build": "webpack"
   }
 }
 ```
