@@ -67,3 +67,4 @@ iOS relies on Xcode to do the final app compile:
 
 ## ¡ IMPORTANT !
 Components than have a map, can't use shadowDOM because the Mapea import is global and will not have access to component DOM
+ 
