@@ -37,11 +37,9 @@ Initialize Capacitor with your app information:
   npx cap init [appName] [appId]
 ```
 
-Build your Ionic App
-```javascript
-  ionic build
-```
+> :bulb:  Check firewall rules and sure that port is open (default 8100)  
 
+## Building app
 Check that the "package.json" file in the build shows "webpack"
 ```javascript
 {
@@ -51,9 +49,6 @@ Check that the "package.json" file in the build shows "webpack"
 }
 ```
 
-> :bulb:  Check firewall rules and sure that port is open (default 8100)  
-
-## Building app
 ```javascript
   npm run build
 ```
