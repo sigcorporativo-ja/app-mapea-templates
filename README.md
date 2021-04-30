@@ -21,19 +21,53 @@ To build app packages, see the Ionic official doc:
 ```javascript
   ionic serve
 ```
-To test app on device, de best way is using [DevApp](https://ionicframework.com/docs/appflow/devapp).
+To test app on device, de best way is using [Capacitor](https://capacitorjs.com/).
 
-Installs it on you device and execute:
+
+Installs it on you device and execute (Existing Ionic Project):
 ```javascript
-  ionic serve --devapp
+  ionic integrations enable capacitor
 ```
-Open DevApp and wait while find de app served. Select it and test your app with access to device functions
+
+Where appName is the name of your app, and appId is the domain identifier of your app (ex: com.example.app)
+look and/or change in the file "capacitor.config.json"
+
+Initialize Capacitor with your app information:
+```javascript
+  npx cap init [appName] [appId]
+```
+
+Build your Ionic App
+```javascript
+  npx cap init [appName] [appId]
+```
+
+Check that the "package.json" file in the build shows "webpack"
+```javascript
+{
+  "scripts": {
+    "build": webpack"
+  }
+}
+```
 
 > :bulb:  Check firewall rules and sure that port is open (default 8100)  
 
 ## Building app
 ```javascript
-  ionic build
+  npm run build
+```
+
+Android relies on Android Studio (or, optionally, the Android CLI tools) to build the app:
+```javascript
+  npx cap add android
+  npx cap open android
+```
+
+iOS relies on Xcode to do the final app compile:
+```javascript
+  npx cap add ios
+  npx cap open ios
 ```
 
 ## ¡ IMPORTANT !
