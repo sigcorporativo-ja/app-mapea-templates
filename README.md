@@ -21,21 +21,22 @@ To build app packages, see the Ionic official doc:
 ```javascript
   ionic serve
 ```
-To test app on device, de best way is using [Capacitor](https://capacitorjs.com/).
 
+To test app on device, de best way is using [Capacitor](https://capacitorjs.com/).
 
 Installs it on you device and execute (Existing Ionic Project):
 ```javascript
   ionic integrations enable capacitor
 ```
 
-Where appName is the name of your app, and appId is the domain identifier of your app (ex: com.example.app)
-look and/or change in the file "capacitor.config.json"
 
 Initialize Capacitor with your app information:
 ```javascript
   npx cap init [appName] [appId]
 ```
+
+Where appName is the name of your app, and appId is the domain identifier of your app (ex: com.example.app)
+look and/or change in the file "capacitor.config.json"
 
 > :bulb:  Check firewall rules and sure that port is open (default 8100)  
 
@@ -44,13 +45,14 @@ Check that the "package.json" file in the build shows "webpack"
 ```javascript
 {
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --mode=production",
+    "build-capacitor": "webpack"
   }
 }
 ```
 
 ```javascript
-  npm run build
+  npm run build-capacitor
 ```
 
 Android relies on Android Studio (or, optionally, the Android CLI tools) to build the app:
