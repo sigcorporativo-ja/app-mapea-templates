@@ -38,6 +38,9 @@ Initialize Capacitor with your app information:
 Where appName is the name of your app, and appId is the domain identifier of your app (ex: com.example.app)
 look and/or change in the file "capacitor.config.json"
 
+For more information in [Capacitor with Ionic Framework](https://capacitorjs.com/docs/getting-started/with-ionic).
+
+
 > :bulb:  Check firewall rules and sure that port is open (default 8100)  
 
 ## Building app
@@ -55,13 +58,13 @@ Check that the "package.json" file in the build shows "webpack"
   npm run build-capacitor
 ```
 
-Android relies on Android Studio (or, optionally, the Android CLI tools) to build the app:
+Android relies on [Android Studio](https://ionicframework.com/docs/developing/android) (or, optionally, the Android CLI tools) to build the app:
 ```javascript
   npx cap add android
   npx cap open android
 ```
 
-iOS relies on Xcode to do the final app compile:
+iOS relies on [Xcode](https://ionicframework.com/docs/developing/ios) to do the final app compile:
 ```javascript
   npx cap add ios
   npx cap open ios
