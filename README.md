@@ -9,7 +9,10 @@ Make easy use Ionic with VanillaJS thanks to this template and native web compon
 
 **Prerequisites**
 * Node & npm: https://nodejs.org/en/download/
+* - Version npm: 6.14.13 
 * Ionic CLI:
+* - Version Ionic CLI: 6.16.3
+
   ```javascript
   npm i -g ionic
   ```
