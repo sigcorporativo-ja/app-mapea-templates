@@ -56,7 +56,7 @@ Install Gradle and add it to the path:
 * Generate file: app-mapea-templates/platforms/android/app/build/outputs/apk/debug/app-debug.apk
 
   ```javascript
-  onic cordova build android
+  ionic cordova build android
   ```
  
 
