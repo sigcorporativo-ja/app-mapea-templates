@@ -52,13 +52,13 @@ Install Gradle and add it to the path:
   ```javascript
   cordova platform add android --save
   ```
- 
- * Generate file: app-mapea-templates/platforms/android/app/build/outputs/apk/debug/app-debug.apk
+  
+* Generate file: app-mapea-templates/platforms/android/app/build/outputs/apk/debug/app-debug.apk
 
   ```javascript
-  ionic cordova build android
+  onic cordova build android
   ```
-
+ 
 
 ## ¡ IMPORTANT !
 Components than have a map, can't use shadowDOM because the Mapea import is global and will not have access to component DOM
