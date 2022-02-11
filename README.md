@@ -1,6 +1,6 @@
 ![Ionic CI](https://github.com/sigcorporativo-ja/app-mapea-templates/workflows/Ionic%20CI/badge.svg)
 
-# app-mapea-templates
+# ionic-vanillajs
 Make easy use Ionic with VanillaJS thanks to this template and native web components
 
 #### :warning: Under construction :warning:
@@ -17,7 +17,7 @@ Make easy use Ionic with VanillaJS thanks to this template and native web compon
   ```javascript
   npm i -g ionic
   ```
-  
+    
 To build app packages, see the Ionic official doc:
 * Android Setup: https://ionicframework.com/docs/developing/android
 
