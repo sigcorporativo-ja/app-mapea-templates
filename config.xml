@@ -2,7 +2,7 @@
 <widget id="jgl.ionic.vanillajs" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Ionic-VanillaJS</name>
     <description>Ionic VanillaJS template with native web components</description>
-    <author email="jgleal@gmail.com" href="https://github.com/jgleal">JGLeal</author>
+    <author href="https://github.com/sigcorporativo-ja">SIG Corporativo</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
