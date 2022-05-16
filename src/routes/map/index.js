@@ -20,7 +20,7 @@ export default class ViewMap extends HTMLElement {
 
     this.mMap = new M.map({
       container: 'map',
-      controls: ['scale'],
+      controls: ['scale','location'],
     })
     this.olMap = this.mMap.getMapImpl()
     this.sizeObserver.observe(this)
