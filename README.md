@@ -20,7 +20,13 @@ Make easy use Ionic with VanillaJS thanks to this template and native web compon
     ```javascript
     npm i -g ionic
     ```
-    
+
+* Cordova in "global" mode:
+
+  ```javascript
+  npm i -g cordova
+  ```
+  
 To build app packages, see the Ionic official doc:
 * Android Setup: https://ionicframework.com/docs/developing/android
 
@@ -45,11 +51,6 @@ Install Gradle and add it to the path:
 
 ## Apk generation
 
-* Cordova in "global" mode:
-
-  ```javascript
-  npm i -g cordova
-  ```
 * Platform:
 
   ```javascript
