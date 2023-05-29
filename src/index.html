@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/@ionic/core@7.0.8/css/ionic.bundle.css" rel="stylesheet" />
-  <link type="text/css" rel="stylesheet" href="../lib/mapea-6.4.0.ol.min.css" rel="stylesheet" />
+  <link type="text/css" rel="stylesheet" href="../lib/mapea-6.3.1.ol.min.css" rel="stylesheet" />
   <style>
     /* fix mapea styles bugs */
     .m-scale-container {
@@ -39,6 +39,7 @@
           <ion-title>Menu</ion-title>
         </ion-toolbar>
       </ion-header>
+      <div id="main-content"></div>
       <ion-content>
         <ion-list>
           <ion-menu-toggle>
@@ -66,7 +67,6 @@
               <ion-icon name="ellipsis-horizontal-outline" slot="start"></ion-icon>
               <ion-label>Tabs Map</ion-label>
             </ion-item>
-            
             <ion-item href="acordeon">
               <ion-icon name="logo-buffer" slot="start"></ion-icon>
               <ion-label>Acordeon</ion-label>
@@ -75,17 +75,17 @@
         </ion-list>
       </ion-content>
     </ion-menu>
-    <ion-router-outlet id="main-content"></ion-router-outlet>
+    <!-- <ion-router-outlet id="main-content"></ion-router-outlet> -->
     <ion-nav root="view-home"></ion-nav>
   </ion-app>
   <ion-menu-controller></ion-menu-controller>
   <script type="text/javascript" src="cordova.js"></script>
   <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@7.0.8/dist/ionic/ionic.esm.js"></script>
   <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@7.0.8/dist/ionic/ionic.js"></script>
-  <!-- <script type="text/javascript" src="https://mapea4-sigc.juntadeandalucia.es/js/mapea-5.0.1.ol.min.js"></script>
-  <script type="text/javascript" src="https://mapea4-sigc.juntadeandalucia.es/js/configuration-5.0.1.js"></script> -->
-  <script type="text/javascript" src="../lib/mapea-6.4.0.ol.min.js"></script>
-  <script type="text/javascript" src="../lib/configuration-6.4.0.js"></script>
+  <!-- <script type="text/javascript" src="https://mapea4-sigc.juntadeandalucia.es/js/mapea-6.4.0.ol.min.js"></script>
+  <script type="text/javascript" src="https://mapea4-sigc.juntadeandalucia.es/js/configuration-6.4.0.js"></script> -->
+  <script type="text/javascript" src="../lib/mapea-6.3.1.ol.min.js"></script>
+  <script type="text/javascript" src="../lib/configuration-6.3.1.js"></script>
   <script></script>
 </body>
 
