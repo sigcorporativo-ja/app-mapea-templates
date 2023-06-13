@@ -18,7 +18,7 @@ export default class ViewMap extends HTMLElement {
       this.mMap.setCenter(evt.detail.value).setZoom(ZOOM_PROV)
     })
 
-    this.mMap = new M.map({
+    this.mMap = M.map({
       container: 'map',
       controls: ['scale','location'],
     })
