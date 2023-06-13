@@ -27,7 +27,7 @@ export default class ViewSearchMap extends HTMLElement {
       }
     })
 
-    this.mMap = new M.map({
+    this.mMap = M.map({
       container: idMap,
       controls: ['scale'],
     })
