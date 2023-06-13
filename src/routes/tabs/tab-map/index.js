@@ -71,7 +71,7 @@ export default class ViewTabMap extends HTMLElement {
     const f = this.lyGeo.getFeatureById(element.id)
     const featuresHandler = this.mMap.getFeatureHandler()
     const featuresSelected =
-      featuresHandler.prevSelectedFeatures_[this.lyGeo.name]
+      featuresHandler.prevSelectedFeatures_[this.lyGeo.id]
     if (featuresSelected.length > 0) {
       featuresHandler.unselectFeatures(featuresSelected, this.lyGeo, {})
       this.mMap.removePopup()
