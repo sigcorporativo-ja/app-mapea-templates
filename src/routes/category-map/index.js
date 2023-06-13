@@ -52,7 +52,7 @@ export default class ViewCategoryMap extends HTMLElement {
   connectedCallback() {
     this.innerHTML = html
 
-    this.mMap = new M.map({
+    this.mMap = M.map({
       container: 'cmap',
       center: [236403, 4141785],
       zoom: 6,
