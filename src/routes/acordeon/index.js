@@ -23,7 +23,7 @@ export default class ViewAcordeon extends HTMLElement {
       this_.cambiaWmc('satelite')
     })
 
-    this.mMap = new M.map({
+    this.mMap = M.map({
       container: 'map',
       controls: ['scale'],
     })
@@ -37,7 +37,7 @@ export default class ViewAcordeon extends HTMLElement {
    let bboxActual = this.mMap.getBbox();
    let zoomActual = this.mMap.getZoom();
    this.mMap.destroy();
-   this.mMap = new M.map({
+   this.mMap = M.map({
     container: 'map',
     wmcfile: [wmc],
     controls: ['scale'],
