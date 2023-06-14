@@ -31,7 +31,7 @@ export default class ViewTabMap extends HTMLElement {
     this._parent = document.querySelector('view-tabs')
     this._generateLayer()
 
-    this.mMap = new M.map({
+    this.mMap = M.map({
       container: 'tmap',
       center: [236403, 4141785],
       zoom: 3,
@@ -71,7 +71,7 @@ export default class ViewTabMap extends HTMLElement {
     const f = this.lyGeo.getFeatureById(element.id)
     const featuresHandler = this.mMap.getFeatureHandler()
     const featuresSelected =
-      featuresHandler.prevSelectedFeatures_[this.lyGeo.name]
+      featuresHandler.prevSelectedFeatures_[this.lyGeo.id]
     if (featuresSelected.length > 0) {
       featuresHandler.unselectFeatures(featuresSelected, this.lyGeo, {})
       this.mMap.removePopup()
