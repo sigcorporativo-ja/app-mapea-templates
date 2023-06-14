@@ -1,6 +1,6 @@
 {
   "name": "ionic-vanillajs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Ionic VanillaJS template with native custom elements",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "ionic:serve": "npm run dev --",
     "ionic:build": "npm run build --"
   },
-  "author": "JGLeal",
+  "author": "Sigcorporativo",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.8.4",

@@ -7,6 +7,7 @@ Make easy use Ionic with VanillaJS thanks to this template and native web compon
 
 **Prerequisites**
 * Node & npm: https://nodejs.org/en/download/
+
   - Version node: 16.17.0
   - Version npm: 8.15.0
   
@@ -26,7 +27,7 @@ Make easy use Ionic with VanillaJS thanks to this template and native web compon
   ```javascript
   npm i -g cordova
   ```
-  
+
 To build app packages, see the Ionic official doc:
 * Android Setup: https://ionicframework.com/docs/developing/android
 
