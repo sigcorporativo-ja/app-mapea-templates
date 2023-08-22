@@ -1,21 +1,25 @@
 import html from './tab-map.html'
-const featureStyle = new M.style.Point({
-  radius: 5,
-  fill: {
-    color: 'green',
-  },
-  stroke: {
-    color: '#000',
-  },
+const featureStyle = new M.style.Generic({
+  point: {
+    radius: 5,
+    fill: {
+      color: 'green',
+    },
+    stroke: {
+      color: '#000',
+    },
+  }
 })
-const featureSelStyle = new M.style.Point({
-  radius: 7,
-  fill: {
-    color: 'yellow',
-  },
-  stroke: {
-    color: '#000',
-  },
+const featureSelStyle = new M.style.Generic({
+  point: {
+    radius: 7,
+    fill: {
+      color: 'yellow',
+    },
+    stroke: {
+      color: '#000',
+    },
+  }
 })
 export default class ViewTabMap extends HTMLElement {
   constructor() {
