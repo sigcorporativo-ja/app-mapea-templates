@@ -4,23 +4,29 @@ import imgBus from './img/bus.svg'
 import imgShop from './img/basket.svg'
 import imgBar from './img/cafe.svg'
 
-const styleShop = new M.style.Point({
-  icon: {
-    src: imgShop,
-    scale: 0.05,
-  },
+const styleShop = new M.style.Generic({
+  point: {
+    icon: {
+      src: imgShop,
+      scale: 0.05,
+    },
+  }
 })
-const styleBar = new M.style.Point({
-  icon: {
-    src: imgBar,
-    scale: 0.05,
-  },
+const styleBar = new M.style.Generic({
+  point: {
+    icon: {
+      src: imgBar,
+      scale: 0.05,
+    },
+  }
 })
-const styleBus = new M.style.Point({
-  icon: {
-    src: imgBus,
-    scale: 0.05,
-  },
+const styleBus = new M.style.Generic({
+  point: {
+    icon: {
+      src: imgBus,
+      scale: 0.05,
+    },
+  }
 })
 
 const lyData = new M.layer.GeoJSON({
